@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayush Srivastava · Data Analyst Portfolio</title>
+  <meta name="description" content="Data Analyst portfolio showcasing SQL, Python, and BI projects, with case studies and dashboards." />
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Optional: smooth scroll & selection color */
+    html { scroll-behavior: smooth; }
+    ::selection { background:#e5f2ff; }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/90 border-b border-zinc-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex h-14 items-center justify-between">
+        <a href="#home" class="font-semibold tracking-tight">Ayush Srivastava</a>
+        <nav class="hidden sm:flex gap-6 text-sm">
+          <a href="#projects" class="hover:text-blue-600">Projects</a>
+          <a href="#skills" class="hover:text-blue-600">Skills</a>
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <a href="#contact" class="inline-flex items-center rounded-xl bg-blue-600 text-white text-sm font-medium px-4 py-2 shadow hover:bg-blue-700">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-blue-50 to-transparent"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-5xl font-bold tracking-tight text-zinc-900">Data Analyst
+            <span class="text-blue-600">· SQL · Python · Tableau</span>
+          </h1>
+          <p class="mt-4 text-zinc-600 max-w-prose">I turn messy data into clear decisions. I design analyses, dashboards, and experiments that improve growth, cut costs, and reveal opportunities. Below are a few projects that shipped impact.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="#projects" class="rounded-xl bg-blue-600 text-white px-5 py-3 text-sm font-medium shadow hover:bg-blue-700">See Projects</a>
+            <a href="resume.pdf" class="rounded-xl border border-zinc-300 px-5 py-3 text-sm font-medium hover:border-zinc-400">Download Résumé</a>
+          </div>
+          <div class="mt-6 flex flex-wrap items-center gap-2 text-xs text-zinc-500">
+            <span class="px-2 py-1 rounded bg-white border">Available for full‑time roles</span>
+            <span class="px-2 py-1 rounded bg-white border">Open to freelance</span>
+          </div>
+        </div>
+        <div class="bg-white border rounded-2xl p-6 shadow-sm">
+          <h3 class="font-semibold">Quick Stats</h3>
+          <dl class="mt-4 grid grid-cols-2 gap-4 text-sm">
+            <div class="p-4 rounded-xl bg-blue-50">
+              <dt class="text-zinc-600">Experiments Analyzed</dt>
+              <dd class="text-2xl font-bold">120+</dd>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-50">
+              <dt class="text-zinc-600">Dashboards Live</dt>
+              <dd class="text-2xl font-bold">35</dd>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-50">
+              <dt class="text-zinc-600">Cost Saved</dt>
+              <dd class="text-2xl font-bold">₹1.2Cr+</dd>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-50">
+              <dt class="text-zinc-600">Stakeholder NPS</dt>
+              <dd class="text-2xl font-bold">+62</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 sm:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-end justify-between gap-6">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Highlighted Projects</h2>
+          <p class="mt-2 text-zinc-600">Each card includes a short case study; click through for the full write‑up, code, and dashboards.</p>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="text-sm text-blue-700 hover:underline">View GitHub →</a>
+      </div>
+
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Card 1 -->
+        <article class="bg-white border rounded-2xl p-5 shadow-sm flex flex-col">
+          <div class="aspect-video rounded-lg bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-blue-700 text-sm">Screenshot / Chart</div>
+          <h3 class="mt-4 font-semibold text-lg">Marketplace Fraud Detection</h3>
+          <p class="mt-2 text-sm text-zinc-600">Built a feature‑engineered model (Logistic + XGBoost) to flag high‑risk transactions. <span class="font-medium text-zinc-800">Reduced chargebacks by 31%</span> at constant approval rate.</p>
+          <ul class="mt-3 text-xs text-zinc-500 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">Python</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Pandas</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">XGBoost</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Tableau</li>
+          </ul>
+          <div class="mt-4 flex gap-3 text-sm">
+            <a class="text-blue-700 hover:underline" href="#">Case Study</a>
+            <a class="text-blue-700 hover:underline" href="#">Notebook</a>
+            <a class="text-blue-700 hover:underline" href="#">Dashboard</a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="bg-white border rounded-2xl p-5 shadow-sm flex flex-col">
+          <div class="aspect-video rounded-lg bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-blue-700 text-sm">Screenshot / Chart</div>
+          <h3 class="mt-4 font-semibold text-lg">Churn Segmentation & Uplift</h3>
+          <p class="mt-2 text-sm text-zinc-600">Segmented users via RFM + k‑means; designed uplift‑targeted offers. <span class="font-medium text-zinc-800">Lifted retention by 7.8% QoQ</span> with 12% lower incentive cost.</p>
+          <ul class="mt-3 text-xs text-zinc-500 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">SQL</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Python</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Looker Studio</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">A/B Testing</li>
+          </ul>
+          <div class="mt-4 flex gap-3 text-sm">
+            <a class="text-blue-700 hover:underline" href="#">Case Study</a>
+            <a class="text-blue-700 hover:underline" href="#">SQL</a>
+            <a class="text-blue-700 hover:underline" href="#">Dashboard</a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="bg-white border rounded-2xl p-5 shadow-sm flex flex-col">
+          <div class="aspect-video rounded-lg bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-blue-700 text-sm">Screenshot / Chart</div>
+          <h3 class="mt-4 font-semibold text-lg">Revenue Forecasting</h3>
+          <p class="mt-2 text-sm text-zinc-600">Developed a simple features‑first forecast (SARIMAX vs Prophet) for monthly revenue. <span class="font-medium text-zinc-800">MAPE improved from 18% → 9%</span>.</p>
+          <ul class="mt-3 text-xs text-zinc-500 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">Python</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Prophet</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Pandas</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Visualization</li>
+          </ul>
+          <div class="mt-4 flex gap-3 text-sm">
+            <a class="text-blue-700 hover:underline" href="#">Case Study</a>
+            <a class="text-blue-700 hover:underline" href="#">Notebook</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-white border-y">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Skills & Tools</h2>
+      <p class="mt-2 text-zinc-600">What I use to deliver impact.</p>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <div class="p-5 rounded-2xl border">
+          <h3 class="font-semibold">Core</h3>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">SQL (MySQL, Postgres)</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Python (pandas, numpy)</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Excel (PowerQuery)</li>
+          </ul>
+        </div>
+        <div class="p-5 rounded-2xl border">
+          <h3 class="font-semibold">BI & Viz</h3>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">Tableau</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Looker Studio</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Power BI</li>
+          </ul>
+        </div>
+        <div class="p-5 rounded-2xl border">
+          <h3 class="font-semibold">Data Ops</h3>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">ETL / Airflow</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Git / GitHub</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">APIs</li>
+          </ul>
+        </div>
+        <div class="p-5 rounded-2xl border">
+          <h3 class="font-semibold">Methods</h3>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            <li class="px-2 py-1 rounded bg-zinc-100">A/B Testing</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Experiment Design</li>
+            <li class="px-2 py-1 rounded bg-zinc-100">Forecasting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 sm:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">About Me</h2>
+      <p class="mt-4 text-zinc-700 leading-7">I’m a Data Analyst with an MSBA and 3+ years across education, retail, and fintech. I love shaping ambiguous questions into measurable outcomes and partnering with product & business teams to deliver insights that move the needle. Recently, I led a retention analysis that informed pricing strategy and reduced voluntary churn by 7.8%.</p>
+      <div class="mt-6 flex items-center gap-4 text-sm">
+        <a href="mailto:youremail@example.com" class="text-blue-700 hover:underline">Email</a>
+        <a href="https://www.linkedin.com/in/yourhandle" target="_blank" class="text-blue-700 hover:underline">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank" class="text-blue-700 hover:underline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white border-t">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Contact</h2>
+      <p class="mt-2 text-zinc-600">Interested in working together or have a role I’d be a fit for? Reach out below.</p>
+      <form action="https://formspree.io/f/your-id" method="POST" class="mt-6 grid gap-4">
+        <div>
+          <label class="block text-sm text-zinc-600">Your Name</label>
+          <input name="name" required class="mt-1 w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+        </div>
+        <div>
+          <label class="block text-sm text-zinc-600">Email</label>
+          <input type="email" name="email" required class="mt-1 w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+        </div>
+        <div>
+          <label class="block text-sm text-zinc-600">Message</label>
+          <textarea name="message" rows="4" class="mt-1 w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"></textarea>
+        </div>
+        <button class="rounded-xl bg-blue-600 text-white px-5 py-3 text-sm font-medium shadow hover:bg-blue-700">Send</button>
+      </form>
+      <p class="mt-3 text-xs text-zinc-500">Form powered by <a class="underline" href="https://formspree.io" target="_blank">Formspree</a>. Replace the action URL with your own.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-sm text-zinc-500">
+    <p>© <span id="year"></span> Ayush Srivastava. Built with HTML + Tailwind.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
